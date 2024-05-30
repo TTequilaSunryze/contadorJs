@@ -1,0 +1,97 @@
+html{
+    justify-content: center;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.section-center {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+img {   
+    display: flex;
+    width: all;
+    height: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.gift-info{
+    text-align: center;
+    margin: 10px;
+}
+h3{
+    font-size: 50px;
+}
+
+h4{
+    font-size: large;
+    color: grey;
+    justify-self: flex-end;
+    margin: 20px;
+    text-wrap: wrap;
+}
+
+.deadline {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.deadline-format{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(32, 11, 59);
+}
+
+.days {
+    font-size: 2rem;
+    color: white;
+}
+.hours {
+    font-size: 2rem;
+    color: white;
+}
+.minutes {
+    font-size: 2rem;
+    color: white;
+}
+.seconds {
+    font-size: 2rem;
+    color: white;
+}
+span{
+    font-size: 2rem;
+    color: white;
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+@media (max-width: 760px){
+    img {   
+        display: flex;
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+        padding: 50px;
+    }
+    
+}
